@@ -1,0 +1,295 @@
+:root {
+    --seagreen: #3bb77e;
+    --red: red;
+    --lightgrey: #ececec;
+    --darkgrey: #848282;
+    --goldyellow: #fdc040;
+}
+
+.path {
+    display: flex;
+    padding: 15px 0;
+    margin-bottom: 15px;
+
+}
+
+.path div {
+    display: flex;
+}
+
+.product-img img {
+    width: 535px;
+    height: 537px;
+    border-radius: 20px;
+    border: 1px solid #ececec;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.product-img {
+    width: 535px;
+    height: 537px;
+
+}
+
+.product-imge-showcase img {
+    width: 85px;
+    height: 80px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #ececec;
+}
+
+.product-imge-showcase {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.product-display-container {
+    display: flex;
+}
+
+.product-dispaly-image {
+    width: 55%;
+}
+
+.aside-catagory img {
+
+    width: 35px;
+    height: 35px;
+    margin-top: 7px;
+
+}
+
+.aside-catagory {
+    width: 274px;
+    height: 48px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #f2f3f4;
+
+}
+
+.aside-catagory :hover {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.aside {
+    width: 318px;
+    height: 450px;
+}
+
+.aside-catagory a {
+    text-decoration: none;
+    color: #5fc496;
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+
+.aside-catagory div {
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 274px;
+    height: 48px;
+
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div2 {
+    padding: 15px 15px;
+}
+
+.div3 {
+    margin-right: 10px;
+    padding: 15px 15px;
+}
+
+.product-details {
+    margin: 0px 20px;
+    width: 33%;
+
+}
+
+
+.product-details dd {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #7e7e7e;
+}
+
+.product-details input {
+    width: 97px;
+    height: 49px;
+    padding-left: 40px;
+    border: 2px solid #3bb77e;
+    font-size: 28px;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: #3bb77e;
+}
+
+.compare-heart-icon span {
+    font-size: 30px;
+    border: 1px solid #f2f3f4;
+    padding: 10px;
+
+    margin-right: 10px;
+}
+
+.compare-heart-icon {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+
+.display-content {
+    border: 1px solid var(--lightgrey);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+
+
+.round-button-white {
+    border: 1px solid var(--lightgrey);
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: var(--darkgrey);
+    font-style: quicksand;
+    font-weight: 700;
+    justify-content: center;
+    position: relative;
+    bottom: 0px;
+    background: #fff;
+}
+
+.round-button-white:hover {
+    color: var(--seagreen);
+    bottom: 10px;
+    transition: 0.3s;
+    box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.product-description {
+    font-size: 17px;
+    padding-top: 30px
+}
+
+.product-description span {
+    font-size: 20px;
+}
+
+.heading-aside {
+    border: 1px solid var(--lightgrey);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 6px 22px -6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+}
+
+.heading-aside h4 {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--lightgrey);
+}
+
+
+.div-img-85 img {
+    width: 80px;
+    height: 80px;
+}
+
+.sideBar-banner-juice {
+    background-image: url(/Img/banner-sidebar-juice.webp);
+    background-size: cover;
+    width: 320px;
+    height: 330px;
+}
+
+.sideBar-banner-juice h3 {
+    width: 145px;
+    font-weight: 900;
+}
+
+.sideBar-banner-juice div {
+    padding-top: 100px;
+    padding-left: 20px
+}
+
+.sideBar-banner-juice span {
+    color: var(--darkgrey);
+}
+
+.sideBar-banner-juice h3 {
+    border: 1px solid red;
+}
+
+
+
+.sideBar-banner-juice h3 :hover {
+    top: 10px;
+}
+
+/* Utility classes */
+.green-heading h5 {
+    color: var(--seagreen);
+}
+
+.green-heading {
+    color: var(--seagreen);
+}
+
+.green-heading h5 :hover {
+    color: var(--goldyellow);
+}
+
+
+.P-L-10 {
+    padding-left: 10px;
+}
+
+.floatup-10 {
+    position: relative;
+    bottom: 0;
+    transition: 0.3s;
+    color: green;
+}
+
+.floatup-10 :hover {
+    color: red;
+
+}
+
+.color-green {
+    color: red;
+}
+
+
+
+
+
+/*
+side bar banner dimensions 
+320*330
+
+
+product image dimensions
+535 × 537 px main image
+
+85 × 81 px   SHOWCASE
+ */
+/* 
+    Animamtion color change
+ */

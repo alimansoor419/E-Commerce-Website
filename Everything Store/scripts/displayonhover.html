@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .home-dropodown {
+            width: 185px;
+            height: 250px;
+            position: absolute;
+            top: 235px;
+            left: 400px;
+            background-color: #fff;
+            line-height: 28px;
+            border: #dedfe2 1px solid;
+            border-radius: 10px;
+            list-style: none;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            display: none;
+        }
+
+        .margin-leftright-5:hover+.home-dropodown {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="margin-leftright-5">
+        <div><label class="font-bold color-green-pointer header-nav-home">Home </label></div>
+        <div>
+            <span style="font-size: 18px;" class="material-symbols-outlined">
+                expand_more
+            </span>
+        </div>
+    </div>
+
+
+    <div class="home-dropodown">
+        <ul>
+            <li><a href="#"><b>Home 1</b></a></li>
+            <li><a href="#"><b>Home 2</b></a></li>
+            <li><a href="#"><b>Home 3</b></a></li>
+            <li><a href="#"><b>Home 4</b></a></li>
+            <li><a href="#"><b>Home 5</b></a></li>
+            <li><a href="#"><b>Home 6</b></a></li>
+            <li><a href="#"><b>Home 7</b></a></li>
+            <li><a href="#"><b>Home 8</b></a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
